@@ -1,0 +1,11 @@
+/* Style for 'index.ejs' */
+*{
+    font-family: 'Permanent Marker', cursive;
+}
+.collection-item{
+    font-size: 30px;
+    padding: 35px 20px;
+}
+#footer{
+    font-size: 25px;
+}
