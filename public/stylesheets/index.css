@@ -1,6 +1,15 @@
 /* Style for 'index.ejs' */
-*{
+/* h1{
     font-family: 'Permanent Marker', cursive;
+} */
+*{
+    font-family: 'Charm', cursive;
+}
+h1{
+    font-weight: bolder;
+}
+.tabs li{
+    font-weight: bold;
 }
 .collection-item{
     font-size: 30px;
@@ -8,4 +17,19 @@
 }
 #footer{
     font-size: 25px;
+}
+#burgerMenu{
+    font-size: 40px;
+    color: #5d3e04;
+}
+div[class~="show-on-medium"]{
+    display: none;
+}
+h5{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1201px){
+    img[src="/images/main7.jpg"]{
+        display: none;
+    }
 }
